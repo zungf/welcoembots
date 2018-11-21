@@ -74,7 +74,7 @@ client.on('ready', () => {
 
 
 
-client2.on('guildMemberAdd', member => {
+client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("505479736236179498");
 if(!mohamed) return;
 if(mohamed) {
