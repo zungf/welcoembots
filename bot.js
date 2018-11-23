@@ -75,9 +75,34 @@ client.on('ready', () => {
 
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("505479736236179498");
-if(!mohamed) return;
-if(mohamed) {
-setTimeout(() => mohamed.send(`**__# Weélcooome To Only Games..,__:dove: :leaves:**`), 4000)        
+const YossiF = member.guild.channels.get("506613002980818963");//ايدي الشات
+if(!YossiF) return;
+if(YossiF) {
+YossiF.send(`**..Welcome :dove:   To :69: OnlyGames :leaves:  ..**`);          
 }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+client.login(process.env.BOT_TOKEN);
