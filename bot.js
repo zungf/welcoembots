@@ -75,7 +75,7 @@ client.on('ready', () => {
 
 
 client.on('guildMemberAdd', member => {
-const YossiF = member.guild.channels.get("505479736236179498");//ايدي الشات
+const YossiF = member.guild.channels.get("516215917341048863");//ايدي الشات
 if(!YossiF) return;
 if(YossiF) {
 YossiF.send(`**..Welcome :dove:   To  OnlyGames :leaves:  ..**`);          
